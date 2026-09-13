@@ -1,5 +1,4 @@
-[8:59 pm, 13/09/2026] FARIYA KHAN🎀: Linux Administration practice labs using Red Hat Linux on VMware Workstation. Includes user management, permissions, Apache, DHCP, RAID, NFS, DNS and shell commands.
-[9:07 pm, 13/09/2026] FARIYA KHAN🎀: # Practical 1: File and Directory Permissions
+ # Practical 1: File and Directory Permissions
 
 ## Aim
 To understand and manage file and directory permissions in Linux.
