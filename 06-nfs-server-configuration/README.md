@@ -4,8 +4,9 @@ Aim
 
 To understand and configure Network File System (NFS) in Red Hat Linux using VMware Workstation and share a directory between a server and a client.
 
-Commands Used
+## Commands Used
 
+```bash
 yum install nfs-utils -y
 mkdir /nfs-share
 chmod 777 /nfs-share
@@ -21,7 +22,7 @@ systemctl status nfs-server
 
 mount <server-ip>:/nfs-share /mnt
 df -h
-
+```
 Explanation
 
 - "yum install nfs-utils -y" — Installs the NFS package.
@@ -30,7 +31,7 @@ Explanation
 - "vi /etc/exports" — Opens the NFS configuration file.
 - "exportfs -rav" — Applies the export configuration.
 - "systemctl start nfs-server" — Starts the NFS service.
-- "systemctl enable nfs-server" — Enables NFS service at boot.
+- "systemctl enable nfs-server" — Enables the NFS service at boot.
 - "systemctl status nfs-server" — Checks whether the service is running.
 - "mount <server-ip>:/nfs-share /mnt" — Mounts the shared directory on the client.
 - "df -h" — Verifies the mounted file system.
@@ -41,4 +42,4 @@ The NFS service should be active, and the shared directory should be successfull
 
 Conclusion
 
-Successfully configured an NFS server in Red Hat Linux using VMware Workstation and shared a directory between the server and client.
+Successfully configured an NFS Server in Red Hat Linux using VMware Workstation and verified the shared directory between the server and client.
